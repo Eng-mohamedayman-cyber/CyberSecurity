@@ -1,19 +1,20 @@
-1.The practice of Cybersecurity
+## The practice of Cybersecurity
+## Challenges within the Cybersecurity Major
+## The Relationship Between Attack and Defense
+## Building a Hacker Mindset
 
-2.Challenges within the Cybersecurity Major
+Cybersecurity is a unique, independent major. It has its own rules and its own way of thinking. In this field, you protect systems from very smart people who want to destroy them.
 
-3.The Relationship Between Attack and Defense
+We do not fix normal technical problems. We fight against real, intelligent people. They make smart plans and always try to be one step ahead of you. This is the hacker. To defend a system,
+you must think exactly like the attacker. Hackers are human, so we must study how they think and how they act.
 
-4.Building a Hacker Mindset
+The human element is the most important part of cybersecurity. You must know how to think under pressure, even when you do not have all the facts.
 
-cybersecurity is not a submajor but an independant major have his rule and thinking cause you focas challenges,people,and entites are very smart,his goal to destroy your system.
-we don't deal with normal teqnical issue but we do with smart person make planing and always want to be precedes you by one step,this is hacker
-defensive hacker must understand the mindsert of the offensive.the hacker also feeling,so we should study his step.
-the human resource is the important thing in hack,and thinging under presure with not complete information.
-if you the offensive or the defensive you not know every thing at the system,but you must protect this system.
-most work at cybersecurity you deal with unknow,make plan,analysis,and make decision this is make difference between hacker.are learn from you mistakes
+No one knows everything about a system, but you still have to protect it. Most of your work will be about facing the unknown, making plans, analyzing data, and making quick decisions.
+This is what makes a great hacker. Finally, you must always learn from your mistakes.
 
-#Have two mindset :
 
-constant mindset : when he foces any problem say i cann't improve any way at the major
-growthing mindset : when he foces any problem say i can make more i can improve myself
+#Two Types of Mindset:
+
+Fixed Mindset: When faced with a problem, this person says: "I cannot improve, and there is no way to get better in this major."
+Growth Mindset: When faced with a problem, this person says: "I can do more, and I can always improve myself."
