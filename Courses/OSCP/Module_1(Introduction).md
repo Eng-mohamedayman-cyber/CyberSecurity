@@ -10,3 +10,4 @@ cybersecurity is not a submajor but an independant major have his rule and think
 we don't deal with normal teqnical issue but we do with smart person make planing and always want to be precedes you by one step,this is hacker
 defensive hacker must understand the mindsert of the offensive.the hacker also feeling,so we should study his step.
 the human resource is the important thing in hack,and thinging under presure with not complete information.
+if you the offensive or the defensive you not know every thing at the system,but you must protect this system.
