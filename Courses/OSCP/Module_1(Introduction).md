@@ -17,4 +17,5 @@ This is what makes a great hacker. Finally, you must always learn from your mist
 # Two Types of Mindset:
 
 Fixed Mindset: When faced with a problem, this person says: "I cannot improve, and there is no way to get better in this major."
+
 Growth Mindset: When faced with a problem, this person says: "I can do more, and I can always improve myself."
