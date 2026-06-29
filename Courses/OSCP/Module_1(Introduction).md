@@ -25,3 +25,7 @@ Security Mindset: All the time, you only ask one question: "How can I hack this 
 
 Try Harder Mindset: When you try to hack a newly updated system and you fail, you must say: "I do not understand it enough yet." Then, you must study it and try again.
 
+* *The Best Offensive and Defensive Roles: The best hacker is one who has worked in a defense position before. Similarly, the best defender is one who deeply understands attack techniques.*
+
+# Thread vs Thread Actor
+
