@@ -27,5 +27,9 @@ Try Harder Mindset: When you try to hack a newly updated system and you fail, yo
 
 * *The Best Offensive and Defensive Roles: The best hacker is one who has worked in a defense position before. Similarly, the best defender is one who deeply understands attack techniques.*
 
-# Thread vs Thread Actor
+# Threat vs Threat Actor
+
+Military Origins: Cybersecurity originally comes from a military background. Instead of protecting physical lands, we now protect digital systems.
+
+The Cyber Arms Race: Offensive and defensive skills improve together over time, and both sides are constantly becoming more complex.
 
