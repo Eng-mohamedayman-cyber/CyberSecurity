@@ -19,3 +19,9 @@ This is what makes a great hacker. Finally, you must always learn from your mist
 Fixed Mindset: When faced with a problem, this person says: "I cannot improve, and there is no way to get better in this major."
 
 Growth Mindset: When faced with a problem, this person says: "I can do more, and I can always improve myself."
+You must have a growth mindset. If you believe you can improve and solve problems, you increase your chances of actually improving and solving them.
+
+Security Mindset: All the time, you only ask one question: "How can I hack this system?" This specific mindset is what separates a professional from a normal person.
+
+Try Harder Mindset: When you try to hack a newly updated system and you fail, you must say: "I do not understand it enough yet." Then, you must study it and try again.
+
