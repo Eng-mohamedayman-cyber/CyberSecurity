@@ -34,10 +34,14 @@ Military Origins: Cybersecurity originally comes from a military background. Ins
 The Cyber Arms Race: Offensive and defensive skills improve together over time, and both sides are constantly becoming more complex.
 
 
-## Risk : The potential impact that a threat or vulnerability can have on an organization. It is used to measure how likely a security issue is to happen and what the damage will be.
-## Threat : A malicious actor whose goal is to break into a network or system to cause damage, steal, or leak data. Threats usually target valuable company assets.
-## Vulnerability : A weakness or flaw in a system or network. If an attacker exploits this weakness, it breaks the security of the system and leads to unauthorized access.
-## Exploit : The process of breaking into a system or network by using a specific vulnerability. It delivers a payload to perform malicious tasks on the target.
-## Assets : Critical systems, services, or data that a company needs to run. Because they are so important, they are main targets for attackers. Employees as Assets : People working in the company are also considered assets. Asset Identification : Finding and listing all assets is the first step during any risk or vulnerability assessment.
-## Payload : A piece of code used during an exploit to perform malicious tasks on a target system. Examples include deleting data, stealing information, or setting up a backdoor.
-## 0-Day : A software or network vulnerability that has not yet been patched by the developer. Because the creator has zero days to fix it, attackers can exploit it immediately.
+### Risk : The potential impact that a threat or vulnerability can have on an organization. It is used to measure how likely a security issue is to happen and what the damage will be.
+### Threat : A malicious actor whose goal is to break into a network or system to cause damage, steal, or leak data. Threats usually target valuable company assets.
+### Vulnerability : A weakness or flaw in a system or network. If an attacker exploits this weakness, it breaks the security of the system and leads to unauthorized access.
+### Exploit : The process of breaking into a system or network by using a specific vulnerability. It delivers a payload to perform malicious tasks on the target.
+### Assets : Critical systems, services, or data that a company needs to run. Because they are so important, they are main targets for attackers. Employees as Assets : People working in the company are also considered assets. Asset Identification : Finding and listing all assets is the first step during any risk or vulnerability assessment.
+### Payload : A piece of code used during an exploit to perform malicious tasks on a target system. Examples include deleting data, stealing information, or setting up a backdoor.
+### 0-Day : A software or network vulnerability that has not yet been patched by the developer. Because the creator has zero days to fix it, attackers can exploit it immediately.
+
+# Threat Actor
+
+### Individual Malicious Hacker: A single hacker who works completely alone. This is the most common type of threat actor you will face.
