@@ -54,6 +54,8 @@ ThWhite Hat: Ethical security professionals who use their skills legally to find
 
 # Types Of Hacker : 
 
+### Blue Team: Is a defense team responsible for performing vulnerability assessments and security audits on the company assets and digital infrastructure to identify vulnerabilities and test the effectiveness of security controls. Their primary objective is to defend against attacks and to predict and prevent future ones. 
+### Red Team: Is a offensive team that simulates attacks on the assets and digital infrastructure of an organization to test the overall security posture and to identify weaknesses and vulnerabilities that can be exploited. 
 ### White Hat: Ethical security professionals who use their skills legally to find vulnerabilities and defend organizations.
 ### Black Hat: Malicious hackers who break into systems illegally to steal data, cause damage, or make money.
 ### Grey Hat: Hackers who fall in the middle; they might find flaws without permission but usually report them instead of causing harm.
@@ -81,3 +83,5 @@ ThWhite Hat: Ethical security professionals who use their skills legally to find
 ---
 
 ## Authentication verifies who you are (like typing your password), while Authorization checks what permissions you have. Together, they ensure Authenticity, proving that a user or system is genuine and completely trustworthy.
+
+
