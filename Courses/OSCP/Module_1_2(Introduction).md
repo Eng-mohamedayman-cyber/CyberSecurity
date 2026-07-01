@@ -132,11 +132,15 @@ The security rule ensuring that services and data are up, running, and accessibl
 ##  Non-Repudiation : 
 This is used to ensure that communication between sender and receiver cannot be refuted.
 
+---
+
 # Defense in Depth : 
 A critical security strategy that distributes security controls across every level of an organization, ensuring that if one defense layer fails, others are in place to stop the attacker and drastically decrease potential damage.
 
 # Threat Intelligence : 
 Actionable data and information about current cyber attackers, their motives, and the exact hacking methods they use to target specific types of businesses.
+# Threat Modeling : 
+A systematic process used to identify, analyze, and prioritize potential security threats and vulnerabilities in a system, allowing developers to design proactive defenses and mitigations before the code is even built.
 
 # Least Privilege : 
 A foundational security rule stating that a user or process must only be given the absolute minimum permissions necessary to complete their job, preventing them from accessing unrelated files or systems.
@@ -166,3 +170,29 @@ An advanced access model that grants permissions by evaluating specific characte
 
 # Security Testing :
 You must constantly test the security defenses you build to verify whether they work correctly, ensuring that any vulnerabilities are discovered and fixed by an internal team before a real attacker finds them.
+
+---
+
+# Backups :
+
+## Backup Methods :
+
+### Full Backup :
+A complete backup process that copies every single file, folder, and piece of data on a system every time it runs, providing the most thorough restore point but requiring the most storage space and time to complete.
+### Incremental Backup :
+A fast backup process that copies only the files and data that have changed since the last backup of any kind was made, significantly reducing backup time and saving storage space.
+### Differential Backup : 
+A balanced backup method that copies only the files and data that have changed since the last Full Backup, making restorations faster than incremental backups while using less space than full backups.
+
+## Types Of Backup : 
+
+###  Hot Backup (Online Backup) : 
+copies data while the system is fully running and accessible to users without causing any downtime.
+
+### Cold Backup (Offline Backup) : 
+requires completely shutting down the system and databases before copying, ensuring total data consistency but causing temporary service disruption.
+
+* Log Backups: You must secure and back up system and network logs consistently, as they provide the crucial digital footprints needed to investigate, analyze, and resolve the root cause of a system failure or security breach.
+
+---
+
