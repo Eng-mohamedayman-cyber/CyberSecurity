@@ -135,6 +135,7 @@ This is used to ensure that communication between sender and receiver cannot be 
 # Defense in Depth : 
 A critical security strategy that distributes security controls across every level of an organization, ensuring that if one defense layer fails, others are in place to stop the attacker and drastically decrease potential damage.
 
-
+# Threat Intelligence : 
+Actionable data and information about current cyber attackers, their motives, and the exact hacking methods they use to target specific types of businesses.
 
 
