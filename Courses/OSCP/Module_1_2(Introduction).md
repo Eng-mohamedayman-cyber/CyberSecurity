@@ -17,14 +17,18 @@ This is what makes a great hacker. Finally, you must always learn from your mist
 
 # Types of Mindset:
 
-Fixed Mindset: When faced with a problem, this person says: "I cannot improve, and there is no way to get better in this major."
+### Fixed Mindset : 
+When faced with a problem, this person says: "I cannot improve, and there is no way to get better in this major."
 
-Growth Mindset: When faced with a problem, this person says: "I can do more, and I can always improve myself."
+### Growth Mindset : 
+When faced with a problem, this person says: "I can do more, and I can always improve myself."
 You must have a growth mindset. If you believe you can improve and solve problems, you increase your chances of actually improving and solving them.
 
-Security Mindset: All the time, you only ask one question: "How can I hack this system?" This specific mindset is what separates a professional from a normal person.
+### Security Mindset : 
+All the time, you only ask one question: "How can I hack this system?" This specific mindset is what separates a professional from a normal person.
 
-Try Harder Mindset: When you try to hack a newly updated system and you fail, you must say: "I do not understand it enough yet." Then, you must study it and try again.
+### Try Harder Mindset :
+When you try to hack a newly updated system and you fail, you must say: "I do not understand it enough yet." Then, you must study it and try again.
 
 * *The Best Offensive and Defensive Roles: The best hacker is one who has worked in a defense position before. Similarly, the best defender is one who deeply understands attack techniques.*
 
@@ -37,61 +41,100 @@ Military Origins: Cybersecurity originally comes from a military background. Ins
 ThWhite Hat: Ethical security professionals who use their skills legally to find vulnerabilities and defend organizations.e Cyber Arms Race: Offensive and defensive skills improve together over time, and both sides are constantly becoming more complex.
 
 
-### Risk : The potential impact that a threat or vulnerability can have on an organization. It is used to measure how likely a security issue is to happen and what the damage will be.
-### Threat : A malicious actor whose goal is to break into a network or system to cause damage, steal, or leak data. Threats usually target valuable company assets.
-### Vulnerability : A weakness or flaw in a system or network. If an attacker exploits this weakness, it breaks the security of the system and leads to unauthorized access.
-### Exploit : The process of breaking into a system or network by using a specific vulnerability. It delivers a payload to perform malicious tasks on the target.
-### Assets : Critical systems, services, or data that a company needs to run. Because they are so important, they are main targets for attackers. Employees as Assets : People working in the company are also considered assets. Asset Identification : Finding and listing all assets is the first step during any risk or vulnerability assessment.
-### Payload : A piece of code used during an exploit to perform malicious tasks on a target system. Examples include deleting data, stealing information, or setting up a backdoor.
-### 0-Day : A software or network vulnerability that has not yet been patched by the developer. Because the creator has zero days to fix it, attackers can exploit it immediately.
+### Risk :
+The potential impact that a threat or vulnerability can have on an organization. It is used to measure how likely a security issue is to happen and what the damage will be.
+### Threat :
+A malicious actor whose goal is to break into a network or system to cause damage, steal, or leak data. Threats usually target valuable company assets.
+### Vulnerability :
+A weakness or flaw in a system or network. If an attacker exploits this weakness, it breaks the security of the system and leads to unauthorized access.
+### Exploit : 
+The process of breaking into a system or network by using a specific vulnerability. It delivers a payload to perform malicious tasks on the target.
+### Assets : 
+Critical systems, services, or data that a company needs to run. Because they are so important, they are main targets for attackers. Employees as Assets : People working in the company are also considered assets. Asset Identification : Finding and listing all assets is the first step during any risk or vulnerability assessment.
+### Payload : 
+A piece of code used during an exploit to perform malicious tasks on a target system. Examples include deleting data, stealing information, or setting up a backdoor.
+### 0-Day : 
+A software or network vulnerability that has not yet been patched by the developer. Because the creator has zero days to fix it, attackers can exploit it immediately.
 
 # Threat Actor
 
-### Individual Malicious Hacker: A single hacker who works completely alone. This is the most common type of threat actor you will face.
-### Malicious Hacking Group: A team of attackers instead of a single hacker. They work together to pool their resources and achieve a specific, shared goal.
-### Insider Threat: A threat that comes from inside the company. This refers to an employee, contractor, or partner who misuses their legitimate access to harm the organization.
-### APT Hacker (Advanced Persistent Threat): The most dangerous threat actors in the world. These are highly skilled hacking groups directly supported and funded by specific countries (nation-states).
+### Individual Malicious Hacker :
+A single hacker who works completely alone. This is the most common type of threat actor you will face.
+### Malicious Hacking Group : 
+A team of attackers instead of a single hacker. They work together to pool their resources and achieve a specific, shared goal.
+### Insider Threat : 
+A threat that comes from inside the company. This refers to an employee, contractor, or partner who misuses their legitimate access to harm the organization.
+### APT Hacker (Advanced Persistent Threat) : 
+The most dangerous threat actors in the world. These are highly skilled hacking groups directly supported and funded by specific countries (nation-states).
 
 # Types Of Hacker : 
 
-### Blue Team: Is a defense team responsible for performing vulnerability assessments and security audits on the company assets and digital infrastructure to identify vulnerabilities and test the effectiveness of security controls. Their primary objective is to defend against attacks and to predict and prevent future ones. 
-### Red Team: Is a offensive team that simulates attacks on the assets and digital infrastructure of an organization to test the overall security posture and to identify weaknesses and vulnerabilities that can be exploited. 
-### White Hat: Ethical security professionals who use their skills legally to find vulnerabilities and defend organizations.
-### Black Hat: Malicious hackers who break into systems illegally to steal data, cause damage, or make money.
-### Grey Hat: Hackers who fall in the middle; they might find flaws without permission but usually report them instead of causing harm.
-### Script Kiddie: Inexperienced attackers who use pre-made tools and scripts created by others because they lack deep coding skills.
-### Hacktivist: Attackers who hack systems to make a political statement, promote a social cause, or protest.
-### State-Sponsored: Highly advanced hacking groups funded by governments to conduct cyber espionage or attack critical infrastructure.
+### Blue Team : 
+Is a defense team responsible for performing vulnerability assessments and security audits on the company assets and digital infrastructure to identify vulnerabilities and test the effectiveness of security controls. Their primary objective is to defend against attacks and to predict and prevent future ones. 
+### Red Team : 
+Is a offensive team that simulates attacks on the assets and digital infrastructure of an organization to test the overall security posture and to identify weaknesses and vulnerabilities that can be exploited. 
+### White Hat : 
+Ethical security professionals who use their skills legally to find vulnerabilities and defend organizations.
+### Black Hat : 
+Malicious hackers who break into systems illegally to steal data, cause damage, or make money.
+### Grey Hat : 
+Hackers who fall in the middle; they might find flaws without permission but usually report them instead of causing harm.
+### Script Kiddie : 
+Inexperienced attackers who use pre-made tools and scripts created by others because they lack deep coding skills.
+### Hacktivist : 
+Attackers who hack systems to make a political statement, promote a social cause, or protest.
+### State-Sponsored : 
+Highly advanced hacking groups funded by governments to conduct cyber espionage or attack critical infrastructure.
 
 # Types Of Testing :
 
-### Black-Box-testing: Is testing that involves zero knowledge or information about organizations digital infrastructure and or assets. This test is used to assess the overall security posture of an organization, from publicly available information to misconfigurations and social engineering. Black-box testing simulates a real attack scenario and as a result is extremely comprehensive and granular. 
-### White-Box-testing: In this test the complete digital infrastructure and assets are disclosed to the penetration tester and is primarily used by organizations to test specific sections/areas or to perform a complete security audit. 
-### Grey-Box-testing: Involves combining both white and black box testing to simulate attacks from both insiders and outsiders ( external threats ) . Note: some knowledge of the digital infrastructure is disclosed, not all. 
+### Black-Box-testing : 
+Is testing that involves zero knowledge or information about organizations digital infrastructure and or assets. This test is used to assess the overall security posture of an organization, from publicly available information to misconfigurations and social engineering. Black-box testing simulates a real attack scenario and as a result is extremely comprehensive and granular. 
+### White-Box-testing : 
+In this test the complete digital infrastructure and assets are disclosed to the penetration tester and is primarily used by organizations to test specific sections/areas or to perform a complete security audit. 
+### Grey-Box-testing : 
+Involves combining both white and black box testing to simulate attacks from both insiders and outsiders ( external threats ) . Note: some knowledge of the digital infrastructure is disclosed, not all. 
 
 ---
 
 # Types Of Attack :
 
-### Social Engineering: The most famous and common attack method. It relies on lying to and manipulating human victims to trick them into giving away sensitive data or granting unauthorized access.
-### Phishing: A massive social engineering attack that targets a very large group of people—sometimes millions of users at once—rather than just one individual.
-### Ransomware: A dangerous type of malware that locks and encrypts a victim's data. The attacker then demands a ransom payment (usually in cryptocurrency) to provide the decryption key to unlock it.such as Double Extortion,and LockBit 3.0.
-### Credential Abuse: An attack method that exploits poorly protected user accounts. It typically happens when users have weak passwords, reuse normal passwords across multiple websites, or fail to set a password at all on open systems.
-### Disclosure attacks : seek to gain unauthorized access to information or systems.  
-### Alteration attacks : seek to make unauthorized changes to information or systems. 
-### Denial attacks : seek to prevent legitimate use of information and systems. 
+### Social Engineering: 
+The most famous and common attack method. It relies on lying to and manipulating human victims to trick them into giving away sensitive data or granting unauthorized access.
+### Phishing:
+A massive social engineering attack that targets a very large group of people—sometimes millions of users at once—rather than just one individual.
+### Ransomware: 
+A dangerous type of malware that locks and encrypts a victim's data. The attacker then demands a ransom payment (usually in cryptocurrency) to provide the decryption key to unlock it.such as Double Extortion,and LockBit 3.0.
+### Credential Abuse: 
+An attack method that exploits poorly protected user accounts. It typically happens when users have weak passwords, reuse normal passwords across multiple websites, or fail to set a password at all on open systems.
+### Disclosure attacks : 
+seek to gain unauthorized access to information or systems.  
+### Alteration attacks :
+seek to make unauthorized changes to information or systems. 
+### Denial attacks :
+seek to prevent legitimate use of information and systems. 
 
 ---
 
 # CIA
 
-### Confidentiality: The security rule that ensures private information is kept secret and cannot be accessed by unauthorized people. Protecting credentials like usernames and passwords is critical because if this data leaks, it puts the entire organization at risk, many companies still get hacked, causing sensitive user data to leak onto the dark web.There is famous, legitimate security website (haveibeenpwned.com) where anyone can safely type in their email address to check if their personal data has been leaked in a corporate hack.
-### Integrity: The security rule ensuring that data stays exactly the same without any unauthorized changes, which is achieved using hashing techniques to verify that the information has not been modified.
-### Availability: The security rule ensuring that services and data are up, running, and accessible to users at all times, which is often threatened by DDoS attacks that flood systems with fake traffic to crash them and make them completely unreachable.
+### Confidentiality : 
+The security rule that ensures private information is kept secret and cannot be accessed by unauthorized people. Protecting credentials like usernames and passwords is critical because if this data leaks, it puts the entire organization at risk, many companies still get hacked, causing sensitive user data to leak onto the dark web.There is famous, legitimate security website (haveibeenpwned.com) where anyone can safely type in their email address to check if their personal data has been leaked in a corporate hack.
+### Integrity : 
+The security rule ensuring that data stays exactly the same without any unauthorized changes, which is achieved using hashing techniques to verify that the information has not been modified.
+### Availability :
+The security rule ensuring that services and data are up, running, and accessible to users at all times, which is often threatened by DDoS attacks that flood systems with fake traffic to crash them and make them completely unreachable.
 
 ---
 
 ## Authentication verifies who you are (like typing your password), while Authorization checks what permissions you have. Together, they ensure Authenticity, proving that a user or system is genuine and completely trustworthy.
 
-##  Non-Repudiation: This is used to ensure that communication between sender and receiver cannot be refuted.
+##  Non-Repudiation : 
+This is used to ensure that communication between sender and receiver cannot be refuted.
+
+# Defense in Depth : 
+A critical security strategy that distributes security controls across every level of an organization, ensuring that if one defense layer fails, others are in place to stop the attacker and drastically decrease potential damage.
+
+
+
 
