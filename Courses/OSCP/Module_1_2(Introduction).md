@@ -241,3 +241,38 @@ A structured set of best practices, guidelines, and standards designed to help o
 * Command and Control. 
 * Action on objective. 
 
+---
+
+# Penetration Testing Phases: 
+
+* Pre-Engagement Interactions. 
+* Reconnaissance or OSINT. 
+* Threat Modeling & Vulnerability Identification. 
+* Exploitation. 
+* Post-Exploitation, Analysis, Recommendations. 
+* Reporting. 
+
+---
+
+# Penetration Testing :
+ penetration testing is the process of simulating an attack 
+on a network or system to evaluate the security posture of the system and 
+identify vulnerabilities that can be exploited. This is achieved by simulating 
+carious types of attacks on the target network or host. 
+
+The main objective of a pentest is to identify vulnerabilities and document how they can be exploited ( POC ). 
+
+Penetration testing requires written permission and authorization from the management/top down authorization model. 
+## The agreement between an organization and a penetration tester should include the following: 
+  * Scope – What to test. 
+  * Timeframe – When to test, and how long the test will take.
+## Penetration testing methodologies:
+A penetration testing methodology is a comprehensive methodical approach that is used in penetration testing to identify vulnerability and weakness in the overall security posture of an organization. 
+### Both proprietary and open source methodologies exist. 
+  * OSSTMM : Open Source Security Testing methodology. 
+  * OWASP : Open Web Application Security Project. 
+
+---
+
+# The Common Vulnerabilities and Exposures (CVE) :
+Is Identifies vulnerabilities by name, number, and description. This makes the job of a penetration tester easier, as vendors, exploit developers, and others can use a common scheme to refer to vulnerabilities
