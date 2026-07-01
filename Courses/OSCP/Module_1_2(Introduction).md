@@ -63,6 +63,12 @@ ThWhite Hat: Ethical security professionals who use their skills legally to find
 ### Hacktivist: Attackers who hack systems to make a political statement, promote a social cause, or protest.
 ### State-Sponsored: Highly advanced hacking groups funded by governments to conduct cyber espionage or attack critical infrastructure.
 
+# Types Of Testing :
+
+### Black-Box-testing: Is testing that involves zero knowledge or information about organizations digital infrastructure and or assets. This test is used to assess the overall security posture of an organization, from publicly available information to misconfigurations and social engineering. Black-box testing simulates a real attack scenario and as a result is extremely comprehensive and granular. 
+### White-Box-testing: In this test the complete digital infrastructure and assets are disclosed to the penetration tester and is primarily used by organizations to test specific sections/areas or to perform a complete security audit. 
+### Grey-Box-testing: Involves combining both white and black box testing to simulate attacks from both insiders and outsiders ( external threats ) . Note: some knowledge of the digital infrastructure is disclosed, not all. 
+
 ---
 
 # Types Of Attack :
@@ -71,6 +77,9 @@ ThWhite Hat: Ethical security professionals who use their skills legally to find
 ### Phishing: A massive social engineering attack that targets a very large group of people—sometimes millions of users at once—rather than just one individual.
 ### Ransomware: A dangerous type of malware that locks and encrypts a victim's data. The attacker then demands a ransom payment (usually in cryptocurrency) to provide the decryption key to unlock it.such as Double Extortion,and LockBit 3.0.
 ### Credential Abuse: An attack method that exploits poorly protected user accounts. It typically happens when users have weak passwords, reuse normal passwords across multiple websites, or fail to set a password at all on open systems.
+### Disclosure attacks : seek to gain unauthorized access to information or systems.  
+### Alteration attacks : seek to make unauthorized changes to information or systems. 
+### Denial attacks : seek to prevent legitimate use of information and systems. 
 
 ---
 
@@ -84,4 +93,5 @@ ThWhite Hat: Ethical security professionals who use their skills legally to find
 
 ## Authentication verifies who you are (like typing your password), while Authorization checks what permissions you have. Together, they ensure Authenticity, proving that a user or system is genuine and completely trustworthy.
 
+##  Non-Repudiation: This is used to ensure that communication between sender and receiver cannot be refuted.
 
