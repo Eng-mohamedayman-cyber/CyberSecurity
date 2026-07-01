@@ -45,3 +45,6 @@ The Cyber Arms Race: Offensive and defensive skills improve together over time, 
 # Threat Actor
 
 ### Individual Malicious Hacker: A single hacker who works completely alone. This is the most common type of threat actor you will face.
+### Malicious Hacking Group: A team of attackers instead of a single hacker. They work together to pool their resources and achieve a specific, shared goal.
+
+
