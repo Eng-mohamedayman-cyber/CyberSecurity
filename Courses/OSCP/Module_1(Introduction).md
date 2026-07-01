@@ -46,5 +46,9 @@ The Cyber Arms Race: Offensive and defensive skills improve together over time, 
 
 ### Individual Malicious Hacker: A single hacker who works completely alone. This is the most common type of threat actor you will face.
 ### Malicious Hacking Group: A team of attackers instead of a single hacker. They work together to pool their resources and achieve a specific, shared goal.
+### Insider Threat: A threat that comes from inside the company. This refers to an employee, contractor, or partner who misuses their legitimate access to harm the organization.
+### APT Hacker (Advanced Persistent Threat): The most dangerous threat actors in the world. These are highly skilled hacking groups directly supported and funded by specific countries (nation-states).
+
+# Types Of Hacker :
 
 
