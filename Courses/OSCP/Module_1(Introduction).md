@@ -13,8 +13,9 @@ The human element is the most important part of cybersecurity. You must know how
 No one knows everything about a system, but you still have to protect it. Most of your work will be about facing the unknown, making plans, analyzing data, and making quick decisions.
 This is what makes a great hacker. Finally, you must always learn from your mistakes.
 
+---
 
-# Two Types of Mindset:
+# Types of Mindset:
 
 Fixed Mindset: When faced with a problem, this person says: "I cannot improve, and there is no way to get better in this major."
 
@@ -27,11 +28,13 @@ Try Harder Mindset: When you try to hack a newly updated system and you fail, yo
 
 * *The Best Offensive and Defensive Roles: The best hacker is one who has worked in a defense position before. Similarly, the best defender is one who deeply understands attack techniques.*
 
+---
+
 # Threat vs Threat Actor
 
 Military Origins: Cybersecurity originally comes from a military background. Instead of protecting physical lands, we now protect digital systems.
 
-The Cyber Arms Race: Offensive and defensive skills improve together over time, and both sides are constantly becoming more complex.
+ThWhite Hat: Ethical security professionals who use their skills legally to find vulnerabilities and defend organizations.e Cyber Arms Race: Offensive and defensive skills improve together over time, and both sides are constantly becoming more complex.
 
 
 ### Risk : The potential impact that a threat or vulnerability can have on an organization. It is used to measure how likely a security issue is to happen and what the damage will be.
@@ -49,6 +52,17 @@ The Cyber Arms Race: Offensive and defensive skills improve together over time, 
 ### Insider Threat: A threat that comes from inside the company. This refers to an employee, contractor, or partner who misuses their legitimate access to harm the organization.
 ### APT Hacker (Advanced Persistent Threat): The most dangerous threat actors in the world. These are highly skilled hacking groups directly supported and funded by specific countries (nation-states).
 
-# Types Of Hacker :
+# Types Of Hacker : 
+
+### White Hat: Ethical security professionals who use their skills legally to find vulnerabilities and defend organizations.
+### Black Hat: Malicious hackers who break into systems illegally to steal data, cause damage, or make money.
+### Grey Hat: Hackers who fall in the middle; they might find flaws without permission but usually report them instead of causing harm.
+### Script Kiddie: Inexperienced attackers who use pre-made tools and scripts created by others because they lack deep coding skills.
+### Hacktivist: Attackers who hack systems to make a political statement, promote a social cause, or protest.
+### State-Sponsored: Highly advanced hacking groups funded by governments to conduct cyber espionage or attack critical infrastructure.
+
+---
+
+# Types Of Attack :
 
 
