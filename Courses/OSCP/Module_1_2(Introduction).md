@@ -119,7 +119,7 @@ seek to prevent legitimate use of information and systems.
 # CIA
 
 ### Confidentiality : 
-The security rule that ensures private information is kept secret and cannot be accessed by unauthorized people. Protecting credentials like usernames and passwords is critical because if this data leaks, it puts the entire organization at risk, many companies still get hacked, causing sensitive user data to leak onto the dark web.There is famous, legitimate security website (haveibeenpwned.com) where anyone can safely type in their email address to check if their personal data has been leaked in a corporate hack.
+The security rule that ensures private information is kept secret and cannot be accessed by unauthorized people. Protecting credentials like usernames and passwords is critical because if this data leaks, it puts the entire organization at risk, many companies still get hacked, causing sensitive user data to leak onto the dark web.There is a famous, legitimate security website called "Have I Been Pwned" that allows users to check if their personal data or credentials have been compromised in these dark web leaks.
 ### Integrity : 
 The security rule ensuring that data stays exactly the same without any unauthorized changes, which is achieved using hashing techniques to verify that the information has not been modified.
 ### Availability :
