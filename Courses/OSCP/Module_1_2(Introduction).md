@@ -54,7 +54,7 @@ Critical systems, services, or data that a company needs to run. Because they ar
 ### Payload : 
 A piece of code used during an exploit to perform malicious tasks on a target system. Examples include deleting data, stealing information, or setting up a backdoor.
 ### 0-Day : 
-A software or network vulnerability that has not yet been patched by the developer. Because the creator has zero days to fix it, attackers can exploit it immediately.
+A software or network vulnerability that has not yet been patched by the developer. Because the creator has zero days to fix it, attackers can exploit it immediately.Check in site Mitre CVE[https://www.cve.org/]
 
 # Threat Actor
 
@@ -89,7 +89,7 @@ Highly advanced hacking groups funded by governments to conduct cyber espionage 
 # Types Of Testing :
 
 ### Black-Box-testing : 
-Is testing that involves zero knowledge or information about organizations digital infrastructure and or assets. This test is used to assess the overall security posture of an organization, from publicly available information to misconfigurations and social engineering. Black-box testing simulates a real attack scenario and as a result is extremely comprehensive and granular. 
+Is testing that involves zero knowledge or information about organizations digital infrastructure and/or assets. This test is used to assess the overall security posture of an organization, from publicly available information to misconfigurations and social engineering. Black-box testing simulates a real attack scenario and as a result is extremely comprehensive and granular. 
 ### White-Box-testing : 
 In this test the complete digital infrastructure and assets are disclosed to the penetration tester and is primarily used by organizations to test specific sections/areas or to perform a complete security audit. 
 ### Grey-Box-testing : 
