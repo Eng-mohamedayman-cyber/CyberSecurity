@@ -65,4 +65,7 @@ ThWhite Hat: Ethical security professionals who use their skills legally to find
 
 # Types Of Attack :
 
-
+### Social Engineering: The most famous and common attack method. It relies on lying to and manipulating human victims to trick them into giving away sensitive data or granting unauthorized access.
+### Phishing: A massive social engineering attack that targets a very large group of people—sometimes millions of users at once—rather than just one individual.
+### Ransomware: A dangerous type of malware that locks and encrypts a victim's data. The attacker then demands a ransom payment (usually in cryptocurrency) to provide the decryption key to unlock it.such as Double Extortion,and LockBit 3.0.
+### 
