@@ -38,7 +38,7 @@ When you try to hack a newly updated system and you fail, you must say: "I do no
 
 Military Origins: Cybersecurity originally comes from a military background. Instead of protecting physical lands, we now protect digital systems.
 
-ThWhite Hat: Ethical security professionals who use their skills legally to find vulnerabilities and defend organizations.e Cyber Arms Race: Offensive and defensive skills improve together over time, and both sides are constantly becoming more complex.
+Cyber Arms Race: Offensive and defensive skills improve together over time, and both sides are constantly becoming more complex.
 
 
 ### Risk :
