@@ -138,4 +138,31 @@ A critical security strategy that distributes security controls across every lev
 # Threat Intelligence : 
 Actionable data and information about current cyber attackers, their motives, and the exact hacking methods they use to target specific types of businesses.
 
+# Least Privilege : 
+A foundational security rule stating that a user or process must only be given the absolute minimum permissions necessary to complete their job, preventing them from accessing unrelated files or systems.
 
+# Zero Trust :
+A modern security framework that never trusts any user or device by default, even if they are inside the same company network, requiring continuous verification for every single access request.
+
+# Open Security (Security through Obscurity is Not Security) :
+The concept that trying to hide non-critical information is useless because a smart hacker can always uncover it, and focusing on hiding data instead of properly securing it often leads companies to forget to build real internal defenses.
+
+# Security vs Usability :
+Security and usability are inversely proportional. When you increase security measures (like adding complex passwords and multi-factor authentication), the system becomes harder to use, whereas making a system completely easy and open significantly drops its security level.
+
+# Security Models : 
+A security model is a theoretical framework or statement of security policy that maps the abstract goals of an organization down into specific, actionable system rules and mathematical constraints to protect data confidentiality and integrity.
+
+## Examples (Standard Frameworks) :
+
+### Bell-LaPadula Model :
+Focused strictly on data Confidentiality. Its main rules are "No Read Up" (you cannot look at data higher than your clearance) and "No Write Down" (you cannot leak secret information to lower levels).
+### Biba Model :
+Focused strictly on data Integrity to prevent unauthorized data changes. Its main rules are the exact opposite of Bell-LaPadula: "No Read Down" and "No Write Up."
+### RBAC (Role-Based Access Control) : 
+A system security model that assigns system permissions to specific job roles rather than individual employees, ensuring that users automatically receive only the exact access required for their duties and allowing an employee to hold only one active role at a time to maintain clean security boundaries.
+### ABAC (Attribute-Based Access Control) : 
+An advanced access model that grants permissions by evaluating specific characteristics or attributes—such as the user's role, the file's sensitivity, the device being used, and the current time or location—offering highly precise and flexible security controls.
+
+# Security Testing :
+You must constantly test the security defenses you build to verify whether they work correctly, ensuring that any vulnerabilities are discovered and fixed by an internal team before a real attacker finds them.
