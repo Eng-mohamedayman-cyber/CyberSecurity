@@ -194,5 +194,50 @@ requires completely shutting down the system and databases before copying, ensur
 
 * Log Backups: You must secure and back up system and network logs consistently, as they provide the crucial digital footprints needed to investigate, analyze, and resolve the root cause of a system failure or security breach.
 
+* Asset Authentication: The security process of verifying the identity of a hardware device or software asset before it is allowed to connect to a corporate network, ensuring that unauthorized or rogue devices cannot access sensitive data.
 ---
+
+# Security Regulation : 
+Laws and official frameworks enforced by governments or industry authorities that mandate companies to follow strict security standards, forcing organizations to protect customer data or face massive legal and financial fines.
+
+## Examples : 
+
+### HIPAA : 
+A US security law forcing hospitals and healthcare companies to strictly protect the privacy and confidentiality of patients' medical records.
+
+### FERPA (Family Educational Rights and Privacy Act) :
+A US federal law that protects the privacy of student education records, preventing schools and universities from sharing grades or personal information without consent.
+
+### GLBA (Gramm-Leach-Bliley Act) :
+A US federal law requiring financial institutions (like banks or investment firms) to strictly protect customers' private financial information and build strong defense systems against data hacks.
+
+### GDPR (General Data Protection Regulation) : 
+A strict European law requiring companies worldwide to protect the data and privacy of EU citizens, giving users the right to control how their personal information is collected and stored.
+
+### PCI-DSS (Payment Card Industry Data Security Standard) : 
+A global compliance standard that mandates any business handling credit or debit card payments to implement strict security controls to protect cardholder data and prevent financial fraud.
+
+---
+
+# Cybersecurity Framework :
+A structured set of best practices, guidelines, and standards designed to help organizations systematically manage, measure, and reduce their digital risks and security vulnerabilities.
+
+## Examples :
+
+* CIS TOP 20  
+* NIST  
+* MITRE ATT&CK
+* MITRE D3FEND
+
+---
+
+# The Cyber Kill Chain: 
+
+* Reconnaissance. 
+* Weaponization. 
+* Delivery. 
+* Exploitation. 
+* Installation. 
+* Command and Control. 
+* Action on objective. 
 
