@@ -74,4 +74,10 @@ ThWhite Hat: Ethical security professionals who use their skills legally to find
 
 # CIA
 
+### Confidentiality: The security rule that ensures private information is kept secret and cannot be accessed by unauthorized people. Protecting credentials like usernames and passwords is critical because if this data leaks, it puts the entire organization at risk, many companies still get hacked, causing sensitive user data to leak onto the dark web.There is famous, legitimate security website (haveibeenpwned.com) where anyone can safely type in their email address to check if their personal data has been leaked in a corporate hack.
+### Integrity: The security rule ensuring that data stays exactly the same without any unauthorized changes, which is achieved using hashing techniques to verify that the information has not been modified.
+### Availability: The security rule ensuring that services and data are up, running, and accessible to users at all times, which is often threatened by DDoS attacks that flood systems with fake traffic to crash them and make them completely unreachable.
 
+---
+
+## Authentication verifies who you are (like typing your password), while Authorization checks what permissions you have. Together, they ensure Authenticity, proving that a user or system is genuine and completely trustworthy.
