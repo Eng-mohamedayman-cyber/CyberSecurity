@@ -1,19 +1,56 @@
-# Windows Server Administrator
+# Introduction to Windows Server Administration
 
-* Network : Two devices or more connected together and share resource.
+## 1. Fundamental Networking Concepts
+
+### What is a Network?
+A network is defined as two or more devices connected together to communicate and share resources.
 
 ![img](Image/lan_wan_network_diagram.png)
 
-* LAN (Local Area Network) : three device connected by switch this is LAN when Connected it by router to other Network This is  WAN (Wide Area Network)
-* Router : Connect and be a gate between networks.
+### Network Types by Geographic Scale :
+
+* LAN (Local Area Network): A network that connects computers and devices within a limited geographical area, such as a single office or building.
+
+* WAN (Wide Area Network): A network that extends over a large geographical distance, connecting multiple LANs together (e.g., The Internet).
+
+### Key Network Devices :
+
+* Router: A device that connects different networks and acts as a gateway between them.
+* PC (Personal Computer): A device that consists of both Hardware and Software.
+* Operating System (OS): Hardware alone is just "iron". It requires an Operating System to enable communication between the user and the hardware.
+
 ---
-* PC : Personal computer, contains: software and hardware.
-* So the hardware are part of iron, need operating system to communicate between user and this hardware.
 
-### [operating system] There is many type of operating system 
+# 2. Types of Operating Systems 
+Operating Systems are broadly divided into two main categories based on their role in the network:
 
-## In this course we study using Windows:
-* Windows Client: Win 8, 10, 11
-* Windows Server: 2019, 2022, 2025 (who used to control the computers and accounts of employees).
+                      [ Operating System ]
+                               |
+            +------------------+------------------+
+
+            |                                     |
+       [ Client OS ]                         [ Server OS ]
+     e.g., Windows 8, 10, 11               e.g., Windows Server 2019, 2022, 2025
+     Used by end-users/employees.          Used to centrally control computers,
+                                           users, and security accounts.
 
 ---
+
+# 3. Why Do We Need Networks? (Sharing of Resources)
+
+The primary purpose of implementing a network is Resource Sharing, which can be categorized into three main types:
+
+### A. Data Sharing :
+
+* Without Network : You must use physical USB drives to copy and paste files manually onto each individual computer.
+* With Network : You can use centralized File Sharing, allowing all computers to access and use data from one shared location.
+
+### B. Device Sharing :
+
+* Without Network : Every single computer must have its own dedicated peripheral (such as a printer) connected directly to it.
+* With Network : Multiple computers can connect to and share a single network printer over the network infrastructure.
+
+### C. Connection Sharing :
+
+* Sharing a single internet connection across all connected devices in the infrastructure.
+
