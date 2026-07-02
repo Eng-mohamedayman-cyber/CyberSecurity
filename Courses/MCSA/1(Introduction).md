@@ -54,3 +54,22 @@ The primary purpose of implementing a network is Resource Sharing, which can be 
 
 * Sharing a single internet connection across all connected devices in the infrastructure.
 
+--- 
+
+# 4. Network Management Models in Microsoft
+Microsoft networks are managed and controlled using one of two central environments:
+
+### 1. Workgroup Model (Peer-to-Peer) :
+
+* Scenario: If you need each employee to log in with their username and password at any computer using a Workgroup environment, you must manually create duplicate user accounts on every single computer one-by-one.
+* Management: Decentralized; there is no single point of control.
+
+### 2. Domain Model (Client-Server) :
+
+* Scenario: In a Domain environment, you create the user account once on the Windows Server (Active Directory). The user can then log in from any computer on the network.
+* Management: Centralized; you can control, manage, and apply policies to all client PCs and user accounts by default from the server.
+                            
+  Workgroup    -----Join to Domain ------>   Domain
+
+---
+
