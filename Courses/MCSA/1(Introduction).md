@@ -86,8 +86,8 @@ When you establish a corporate Domain (for example: test.local), the Windows Ser
 
 ### B. Network Infrastructure Services :
 
-* DHCP (Dynamic Host Configuration Protocol) : Dynamically and automatically assigns IP addresses and network configuration configurations to client devices.
 * DNS (Domain Name System) : Resolves human-readable domain names into IP addresses within the local network infrastructure.
+* DHCP (Dynamic Host Configuration Protocol) : Dynamically and automatically assigns IP addresses and network configuration configurations to client devices.
 
 ### C. Resource & Data Management :
 
