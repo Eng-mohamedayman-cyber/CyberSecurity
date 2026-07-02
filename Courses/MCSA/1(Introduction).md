@@ -1,9 +1,10 @@
 # Windows Server Administrator
 
 * Network : Two devices or more connected together and share resource.
-![img]()
-* LAN (Local Area Network)
-* WAN (Wide Area Network)
+
+![img](Image/lan_wan_network_diagram.png)
+
+* LAN (Local Area Network) : three device connected by switch this is LAN when Connected it by router to other Network This is  WAN (Wide Area Network)
 * Router : Connect and be a gate between networks.
 ---
 * PC : Personal computer, contains: software and hardware.
