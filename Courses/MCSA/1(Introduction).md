@@ -73,3 +73,34 @@ Microsoft networks are managed and controlled using one of two central environme
 
 ---
 
+# 5. Core Services and Features in Windows Server Domain
+
+When you establish a corporate Domain (for example: test.local), the Windows Server environment hosts a powerful suite of centralized roles and features required to manage an enterprise network :
+
+### A. Identity & Centralized Management : 
+
+* Active Directory : The core directory service used to manage user identities, computer accounts, and access permissions across the network.
+* Group Policy : A feature that allows administrators to enforce security settings and manage user/computer configurations remotely.
+* ADC (Additional Domain Controller) : A backup or secondary domain controller used to provide high availability and fault tolerance if the primary server fails.
+* FSMO (Flexible Single Master Operations) : Specialized roles assigned to domain controllers to handle critical, non-duplicate tasks within the Active Directory forest.
+
+### B. Network Infrastructure Services :
+
+* DHCP (Dynamic Host Configuration Protocol) : Dynamically and automatically assigns IP addresses and network configuration configurations to client devices.
+* DNS (Domain Name System) : Resolves human-readable domain names into IP addresses within the local network infrastructure.
+
+### C. Resource & Data Management :
+
+* File Server : Provides a centralized location for storing, organizing, managing, and sharing business files with specific user permissions.
+* Print Server : Manages shared network printers, print queues, and driver deployment across the entire corporate infrastructure.
+* Backup : Tools used to create copies of critical server data and system states to recover efficiently from disasters or hardware failure.
+
+### D. System Deployment & Virtualization :
+
+* WSUS (Windows Server Update Services) : Allows administrators to manage, test, and distribute the latest Microsoft updates and patches to network computers from a single central console.
+* WDS (Windows Deployment Services) : Enables network-based installation of Windows Operating Systems over the network, eliminating the need for physical USB drives or CDs.
+* Server Core : A lightweight installation option for Windows Server that runs without a Graphical User Interface (GUI), reducing the attack surface and hardware footprint.
+* Hyper-V : Microsoft’s native hypervisor platform used to create and run virtualized testing environments and production servers.
+* Remote Services : Tools used by administrators to connect to, configure, and monitor servers securely from any location.
+
+---
