@@ -12,6 +12,8 @@
 
 * The physical hardware is called the host, which has the RAM, storage, CPU, and network. We allocate (cut) from the physical resources to give to the virtual machine. We connect the virtual machine using a virtual switch.
 
+![img](Image/laptop_shape_with_vm_data.png)
+
 ---
 
 # Types of Hypervisors :
