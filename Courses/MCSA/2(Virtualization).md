@@ -43,3 +43,9 @@ The operating system running inside the virtual machine (VM).
 A feature that saves the exact current state of a VM, allowing you to roll back if a failure or virus occurs.
 ### VHD / VMDK: 
 Virtual Hard Disk formats used to store the VM's files and data.
+
+---
+
+# Install Materials:
+
+https://arabcont-my.sharepoint.com/personal/mzohdy_arabcont_com1/_layouts/15/onedrive.aspx?viewid=d39f2eeb%2D7358%2D4c20%2Db5df%2D0a12d049a389&ga=1
