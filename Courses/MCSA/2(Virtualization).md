@@ -40,4 +40,4 @@ The operating system running inside the virtual machine (VM).
 ### Snapshot:
 A feature that saves the exact current state of a VM, allowing you to roll back if a failure or virus occurs.
 ### VHD / VMDK: 
-Virtual Hard Disk formats used to store the virtual machine's files and data.
+Virtual Hard Disk formats used to store the VM's files and data.
