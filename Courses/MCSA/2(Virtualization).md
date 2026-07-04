@@ -49,3 +49,14 @@ Virtual Hard Disk formats used to store the VM's files and data.
 # Install Materials:
 
 https://arabcont-my.sharepoint.com/personal/mzohdy_arabcont_com1/_layouts/15/onedrive.aspx?viewid=d39f2eeb%2D7358%2D4c20%2Db5df%2D0a12d049a389&ga=1
+
+### Install Windows 10,or 11  -->  https://youtu.be/XwkcWo_Tt44?si=gsVNYZS9AEcCoUBl
+## Install Windows Server 2025 -->  https://youtu.be/zIP8OxNenCE?si=8mQDBq18bpUp5Kq1
+### Post-Installation Checklist (Initial Configuration)
+After installing the operating system, you must perform these three essential baseline configurations:
+* Adjust Date, Time, and Time Zone:
+Configure the correct date and regional time zone settings to avoid internet connectivity or system policy application errors later on.
+* Configure a Static IP Address:
+Assign a fixed manual IP address to the Windows Server to ensure it has a permanent identity on the network.
+* Change the Computer Name:
+Rename the server from its default name to a descriptive name (e.g., Primary Domain Controller) for clear identificationز
