@@ -74,7 +74,7 @@ shasum -a 256 <File-Name>
 
 * sudo adduser <name_user> : Creates a new user profile on the system.
 * passwd : Changes the password for your current account.
-* sudo usermod - aG sudo <name_user> : To add user in special permission group
+* sudo usermod -aG sudo <name_user> : To add user in special permission group
 
 ### Managing System Services (SSH & Apache Web Server):
 
@@ -92,8 +92,8 @@ shasum -a 256 <File-Name>
 
 ## Package Management (Installing & Updating)
 
-* sudo apt update <app_name>: Updates your package lists to see which tools have new updates available.
-* sudo apt upgrade <app_name>: Installs the latest available updates for all your system files and apps.
+* sudo apt update: Updates your package lists to see which tools have new updates available.
+* sudo apt upgrade: Installs the latest available updates for all your system files and apps.
 * sudo apt install <app_name> : Downloads and installs a new tool from the internet.
 * apt-cache search <app_name> : Searches the official app repository to see if a tool exists.
 * apt show <app_name> : Shows full details and information about an app before installing it.
