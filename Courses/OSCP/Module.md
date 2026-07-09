@@ -70,12 +70,10 @@ Linux handles input and output data using three standard data streams:
 ## Piping & Advanced Tools
 
 Piping allows you to connect commands together by sending the output of one tool directly into another.
-### | (Pipe) : 
-Passes the output of the left tool as the input to the right tool.
+### | (Pipe) : Passes the output of the left tool as the input to the right tool.
 
 * Example: cat flag.txt | wc sends the file text into wc. The final result only displays the word count.
-### wc : 
-Counts and displays the number of lines, words, and characters in a file.
+### wc : Counts and displays the number of lines, words, and characters in a file.
 ### tee : Splits the data stream. It saves the output into a file and displays it on the terminal screen at the same time.
 
 * Example: cat file.txt | tee new_file.txt
