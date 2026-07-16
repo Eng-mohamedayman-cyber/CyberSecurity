@@ -68,10 +68,12 @@ To terminate a process, you must target its unique Process ID (PID) using signal
 If multiple processes of the same tool are running, killing them manually by PID is inefficient.
 
 * **`killall -9 <process_name>`** : Forces immediate termination of all active processes that match the exact name specified.
-  ```bash
+
+   ```bash
   killall -9 sleep
   ```
 * **`pkill <pattern>`** : Terminates any process whose name partially matches the specified pattern or keyword.
+
   ```bash
   pkill slee
   ```
