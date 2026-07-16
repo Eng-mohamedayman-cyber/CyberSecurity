@@ -1,55 +1,77 @@
-# Managing Processes:
+# Linux Process and Job Management
 
-* Any command run get some time from CPU and memory.
-* Sometime this command execute in terminal and can't write another command at same time.
-* Only write "&" in last of command and this will work in background.
+Every command or tool executed in Linux consumes CPU time and system memory. Managing how these processes run, pause, and terminate is essential for maintaining control over operational tools.
 
-Ex: sleep 1000 & -> will give IDP to you
+---
 
-* To see this jobs run in background use command:
-  "jobs"
-  Find "+" for last add and "-" for before it.
+## 1. Foreground vs. Background Processes
 
-* To see all processes work on CPU use:
-  "ps aux"
+When a command takes a long time to execute, it locks the terminal session (Foreground). To keep using the terminal, you can send the process to the background.
 
-Ex: ps aux | grep sleep
+* **Run a command in the background (`&`):**
+  Appended to the end of any command to execute it immediately in the background, freeing up the terminal shell.
+  ```bash
+  sleep 1000 &
+  ```
+* **`jobs`** : Displays an active list of background tasks managed by the current terminal session.
+  * Note: The `+` sign indicates the most recently added job, while the `-` sign indicates the job added just before it.
 
-* Now we know how we can make it work in bg. How can return to it? Use:
-  "fg %<number for it>"
-  "+" / "fg" only for last jobs add.
+---
 
-* To return it again to background:
-  Ctrl + Z then "bg"
+## 2. Managing Background Jobs
 
-* But when we close terminal and open it again we not find any job in background.
-* To add it to bg and work also when close terminal write "nohup" before command:
-  "nohup sleep 9000 &"
+* **`fg %<job_number>`** : Brings a background job back to the foreground (e.g., `fg %1`). Running `fg` without parameters will bring back the latest job marked with `+`.
+* **`Ctrl + Z`** : Pauses/Suspends a running foreground process and sends it to the background in a "Stopped" state.
+* **`bg`** : Resumes a paused background job, keeping it running in the background.
 
-* If you forget write "nohup" and the job is running, absolutely click "ctrl + z", when it stopped in the background write "bg" then write "disown".
+---
 
-* Now we can't return for this jobs again when close terminal and open new one.
-* But also when reboot all delete.
+## 3. Persistent Processes (Surviving Terminal Closure)
 
-## How to kill process
+Standard background jobs are tied to the current terminal session. If the terminal closes, the jobs receive a `SIGHUP` signal and terminate.
 
-Use "ps aux" and find process ID for your process.
+* **`nohup <command> &`** : Runs a command that is immune to hangups (`SIGHUP`). The job continues running even if the terminal window is closed.
+  ```bash
+  nohup sleep 9000 &
+  ```
+* **`disown`** : Used if you forgot to use `nohup`. 
+  * *Procedure:* Pause the running task with `Ctrl + Z`, resume it in the background using `bg`, and then execute `disown` to detach it from the terminal session.
+  * *Note:* While persistent processes survive terminal closure, they are completely wiped out upon a system reboot.
 
-* Command: "kill <ID-process>"
-  This as default make terminated for process "-15"
+---
 
-* Command: "kill -1 <ID>" make Hangup
-* Command: "kill -2 <ID>" make Interrupt
-* Command: "kill -9 <ID>" make killed, also if work in kernel.
+## 4. Monitoring Processes
 
-* Want to close Group of process:
-  for i in {<From ID>..<To_ID>}; do kill -9 $i; done
-  But this is not efficient so:
+* **`ps aux`** : Displays a comprehensive snapshot of all actively running processes across the entire operating system.
+* **Filtering specific processes:**
+  ```bash
+  ps aux | grep sleep
+  ```
+  *This assists in locating the critical **PID** (Process ID) needed for termination.*
 
-  Use: killall -9 sleep
-  All with name sleep will killed.
+---
 
-Also:
-  "pkill slee"
-  Any process have "slee" in his name.
+## 5. Terminating Processes (How to Kill a Process)
 
+To terminate a process, you must target its unique Process ID (PID) using signals.
+
+**Syntax:** `kill -<signal_number> <PID>`
+
+### Essential Kill Signals:
+* `kill -1 <PID>` (**SIGHUP**) : Reloads or hangs up the process.
+* `kill -2 <PID>` (**SIGINT**) : Interrupts the process (equivalent to pressing `Ctrl + C`).
+* `kill -15 <PID>` (**SIGTERM**) : The default termination signal. Requests the process to clean up and shut down gracefully.
+* `kill -9 <PID>` (**SIGKILL**) : Forcefully kills the process immediately, even if it is stuck executing inside the kernel space.
+
+### Mass Termination Utilities:
+
+If multiple processes of the same tool are running, killing them manually by PID is inefficient.
+
+* **`killall -9 <process_name>`** : Forces immediate termination of all active processes that match the exact name specified.
+  ```bash
+  killall -9 sleep
+  ```
+* **`pkill <pattern>`** : Terminates any process whose name partially matches the specified pattern or keyword.
+  ```bash
+  pkill slee
+  ```
