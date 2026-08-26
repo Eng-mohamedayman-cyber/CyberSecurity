@@ -2,15 +2,6 @@
 
 Welcome to the comprehensive guide on Windows Server Storage Administration. This documentation covers essential theoretical and practical concepts required to manage enterprise storage architectures, disk types, partition tables, file systems, and fault-tolerant RAID configurations.
 
----
-
-## 📂 Repository Structure (Recommended)
-```text
-├── README.md               # Main course documentation (This file)
-├── scripts/                # Automated deployment scripts
-│   └── Initialize-Disks.ps1 # PowerShell automation scripts
-└── assets/                 # Architecture & topology diagrams
-```
 
 ---
 
