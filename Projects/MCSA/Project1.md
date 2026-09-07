@@ -6,10 +6,10 @@ This repository contains the documentation, configuration details, and scripts f
 The objective of this lab is to build a secure, centralized domain environment for a fictional company, implementing strict access controls, security policies, and automated desktop environments tailored to different organizational departments (**HR, Sales, IT**).
 
 ## 🛠️ Infrastructure & Network Configuration
-* **Domain Name:** `zohdy.local`
+* **Domain Name:** `mohamed.local`
 * **Domain Controller (DC) Name:** `DC`
 * **Static IP Address:** `192.168.1.2`
-* **Client Machine:** `PC-01` (IP: `192.168.1.23` joined to `zohdy.local`)
+* **Client Machine:** `PC-01` (IP: `192.168.1.23` joined to `mohamed.local`)
 
 ## 📂 Active Directory Directory Service (AD DS) Structure
 Implemented a structured Organizational Unit (OU) hierarchy to manage users and resources effectively:
@@ -38,11 +38,10 @@ Implemented a structured Organizational Unit (OU) hierarchy to manage users and 
 * **Security Exception:** Created an exclusion rule to allow the `HR Manager` to use external storage for business continuity.
 
 ### 4. Preferences & Client Deployment
-* **Web Shortcuts:** Deployed an internet shortcut URL on all HR users' desktops pointing to `http://hrapp.zohdy.local` with a custom icon.
+* **Web Shortcuts:** Deployed an internet shortcut URL on all HR users' desktops pointing to `http://hrapp.mohamed.local` with a custom icon.
 * **Local Admin Management:** Utilized GPO Preferences to create a local administrator account named `itadmin` on all domain computers and added the `IT-Group` to the local Administrators group.
 
 ## 📸 Verification & Screenshots
-*(Recommendation: Take screenshots from your virtual machine and place them in a folder named `/images` in your repository, then link them here)*
 
 * Active Directory OU Hierarchy: `![AD Structure](images/ad-structure.png)`
 * Group Policy Management Console: `![GPMC](images/gpmc.png)`
