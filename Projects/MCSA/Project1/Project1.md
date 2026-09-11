@@ -45,13 +45,13 @@ Implemented a structured Organizational Unit (OU) hierarchy to manage users and 
 
 * Active Directory OU Hierarchy:
 
-* ![AD Structure](Images/OUs.png)
+![AD Structure](Images/OUs.png)
 
 * Group Policy Management Console:
 
-* ![GPMC](Images/GPOs.png)
-* ![GPMC](Images/Script_Wb.png)
+![GPMC](Images/GPOs.png)
+![GPMC](Images/Script_Wb.png)
 
 * Client Verification (PC-01):
 
-* ![Client Verification](Images/join_domain.png)
+![Client Verification](Images/join_domain.png)
