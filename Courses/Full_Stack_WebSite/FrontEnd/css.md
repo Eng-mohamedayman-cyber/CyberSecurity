@@ -211,3 +211,71 @@ Adapts your stylesheet properties conditionally based on browser parameters like
       }
   }
   ```
+
+  ---
+
+### 8. Interactivity & Transitions (`Hover & States`)
+Handles user interactions, mouse movements, dynamic triggers, and property changes.
+
+| Property / Selector | What it Contains / Values | Purpose | Practical Usage |
+| :--- | :--- | :--- | :--- |
+| `:hover` | Pseudo-class selector | Triggers styles when a mouse pointer rolls over an element. | Changing button colors or lifting cards on hover. |
+| `transition` | Property, duration, ease (e.g., `all 0.3s ease`) | Controls the speed and smoothness of property changes. | Smoothly fading element colors instead of snapping instantly. |
+| `transform` | `scale()`, `translate()`, `rotate()` | Physically shifts, scales, or rotates layout boxes. | Slightly zooming a product picture when hovered. |
+| `cursor` | `pointer`, `not-allowed`, `grab` | Changes the mouse icon shape over specific areas. | Changing the mouse to a hand icon over clickable links. |
+
+#### 💡 Interactive Hover Code Blueprint:
+```css
+/* Base state of a card component */
+.custom-card {
+    background-color: darkcyan;
+    transform: scale(1);
+    /* Animates changes to color and transform over 0.3 seconds smoothly */
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    cursor: pointer;
+}
+
+/* State triggered exclusively on user hover */
+.custom-card:hover {
+    background-color: crimson; /* Smoothly crossfades background paint */
+    transform: scale(1.05); /* Scales the element box size up by 5% */
+}
+```
+
+---
+
+### 9. Custom Micro-Animations (`Keyframes & Animations`)
+Creates complex, multi-stage looping or single-run visual animations without using JavaScript.
+
+| Property / Selector | What it Contains / Values | Purpose | Practical Usage |
+| :--- | :--- | :--- | :--- |
+| `@keyframes` | Animation timeline roadmap block | Defines structural style rules at specific timeline steps (`0%` to `100%`). | Mapping a spinner rotation path. |
+| `animation-name` | Matches your custom `@keyframes` identifier | Links an element to a timeline tracking map. | Attaching a heartbeat effect to a notification icon. |
+| `animation-duration`| Duration metrics (e.g., `2s`, `500ms`) | Sets how long one single animation cycle takes. | Slowing down or speeding up loader graphics. |
+| `animation-iteration-count`| Numbers (e.g., `3`), or `infinite` | Dictates how many times an animation cycle repeats. | Forcing spinning wheels to rotate infinitely. |
+
+#### 💡 Custom Animation Loop Blueprint:
+```css
+/* 1. Define the animation path and milestones */
+@keyframes loading-spin {
+    0% {
+        transform: rotate(0deg); /* Start position */
+    }
+    100% {
+        transform: rotate(360deg); /* End position: full rotation loop */
+    }
+}
+
+/* 2. Bind the animation behavior to a target element */
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ccc;
+    border-top-color: crimson;
+    border-radius: 50%;
+    
+    /* References 'loading-spin', runs for 1 second, flows linearly, loops forever */
+    animation: loading-spin 1s linear infinite; 
+}
+```
+
