@@ -114,8 +114,8 @@ Controls font selection, sizing, spacing, alignment, and letter transformations.
 ### 2. The Box Model Module (`Box Model`)
 The foundational layout rule of web design. Every rendered component is packed inside an adjustable layered footprint grid box comprising Core content text/media, inner Padding spacing padding, boundary borders, and outer Margins.
 
+```css
 +-----------------------------------+
-
 |             MARGIN                |  <- Outer Space (Pushes other items away)
 |    +-------------------------+    |
 |    |         BORDER          |    |  <- The Structural Box Outline
@@ -127,6 +127,8 @@ The foundational layout rule of web design. Every rendered component is packed i
 |    |    +---------------+    |    |
 |    +-------------------------+    |
 +-----------------------------------+
+
+```
 
 | Property | What it Contains / Values | Purpose | Practical Usage |
 | :--- | :--- | :--- | :--- |
