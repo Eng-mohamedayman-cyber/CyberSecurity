@@ -121,9 +121,9 @@ The foundational layout rule of web design. Every rendered component is packed i
 |    |         BORDER          |    |  <- The Structural Box Outline
 |    |    +---------------+    |    |
 |    |    |    PADDING    |    |    |  <- Inner Space (Breathing room inside box)
-|    |    |    +-----+    |    |    |
-|    |    |    |CONTENT|  |    |    |  <- Actual Text, Images, Elements
-|    |    |    +-----+    |    |    |
+|    |    |   +-------+   |    |    |
+|    |    |   |CONTENT|   |    |    |  <- Actual Text, Images, Elements
+|    |    |   +-------+   |    |    |
 |    |    +---------------+    |    |
 |    +-------------------------+    |
 +-----------------------------------+
