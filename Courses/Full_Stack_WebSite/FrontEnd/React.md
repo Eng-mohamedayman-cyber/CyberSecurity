@@ -45,7 +45,7 @@ node -v
 npm -v
 ```
 
-Optional:
+Then :
 
 ```bash
 npm install -g node-gyp
