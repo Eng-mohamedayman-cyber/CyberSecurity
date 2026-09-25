@@ -1500,34 +1500,25 @@ Then React displays it.
 A complete product details component:
 
 ```jsx
-import React, {
-    useEffect,
-    useState
-} from "react";
+import React, { useEffect, useState } from "react";
 
-import {
-    useParams
-} from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import axios from "axios";
 
 
 function Details() {
 
-    const { id } =
-        useParams();
+    const data = useParams();
+    let id = data.id
+
+    const [product, setProduct] = useState([]);
 
 
-    const [product, setProduct] =
-        useState(null);
+    const [loading, setLoading] = useState(true);
 
 
-    const [loading, setLoading] =
-        useState(true);
-
-
-    const [error, setError] =
-        useState("");
+    const [error, setError] = useState("");
 
 
     useEffect(() => {
@@ -1583,8 +1574,8 @@ function Details() {
     }
 
 
-    return (
-
+return (
+<>
         <div>
 
             {product && (
@@ -1607,7 +1598,8 @@ function Details() {
             )}
 
         </div>
-    );
+</>
+);
 }
 
 
@@ -1623,8 +1615,7 @@ export default Details;
 Used to store data that changes.
 
 ```jsx
-const [products, setProducts] =
-    useState([]);
+const [products, setProducts] = useState([]);
 ```
 
 Think:
@@ -1660,8 +1651,14 @@ useEffect = Run Code
 Used to extract parameters from the URL.
 
 ```jsx
-const { id } =
-    useParams();
+const { id } = useParams();
+```
+
+* OR
+
+```jsx
+const data = useParams();
+let id = data.id
 ```
 
 Think:
@@ -1736,48 +1733,6 @@ CRUD Applications
 Admin Dashboards
       ↓
 Real React Applications
-```
-
----
-
-# 🏗️ Example Project Structure
-
-```text
-React/
-│
-├── README.md
-│
-├── 01-Basics/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── ...
-│   └── package.json
-│
-├── 02-Components/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── Nav.jsx
-│   │   ├── Nav.css
-│   │   └── ...
-│   └── package.json
-│
-├── 03-Routing/
-│   └── ...
-│
-├── 04-Axios/
-│   └── ...
-│
-└── 05-Restaurant-Website/
-    ├── db.json
-    ├── package.json
-    └── src/
-        ├── App.jsx
-        ├── Component/
-        ├── Home/
-        ├── Menu/
-        ├── Details/
-        └── ...
 ```
 
 ---
