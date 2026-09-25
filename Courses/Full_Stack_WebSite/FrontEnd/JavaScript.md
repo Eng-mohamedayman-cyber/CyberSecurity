@@ -1978,7 +1978,7 @@ The main focus was not only learning syntax, but also understanding how JavaScri
 
 # 👨‍💻 Author
 
-**Mohamed**
+**Eng Mohamed Ayman Rahma**
 
 Computer Engineering Student | Cybersecurity Learner | Frontend Developer
 
