@@ -189,9 +189,11 @@ Example:
 function Nav() {
 
     return (
+    <>
         <nav>
             <h1>My Website</h1>
         </nav>
+    </>
     );
 }
 
@@ -206,11 +208,9 @@ import Nav from './Nav';
 function App() {
 
     return (
-        <div>
-
-            <Nav />
-
-        </div>
+    <>
+      <Nav />
+    </>
     );
 }
 
@@ -237,7 +237,11 @@ Example:
 
 ```jsx
 function Nav() {
-    return <h1>Navigation</h1>;
+    return (
+    <>
+      <h1>Navigation</h1>
+    </>
+    );
 }
 ```
 
@@ -245,7 +249,11 @@ Incorrect:
 
 ```jsx
 function nav() {
-    return <h1>Navigation</h1>;
+    return (
+    <>
+      <h1>Navigation</h1>
+    </>
+    );
 }
 ```
 
@@ -426,16 +434,12 @@ React Router allows the application to display different components based on the
 Example:
 
 ```jsx
-import {
-    BrowserRouter,
-    Routes,
-    Route
-} from "react-router-dom";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 function App() {
 
-    return (
-
+return (
+<>
         <BrowserRouter>
 
             <Routes>
@@ -458,7 +462,8 @@ function App() {
             </Routes>
 
         </BrowserRouter>
-    );
+</>
+);
 }
 ```
 
@@ -565,10 +570,10 @@ import { useState } from "react";
 
 function App() {
 
-    const [name, setName] =
-        useState("");
+    const [name, setName] = useState("");
 
-    return (
+return (
+<>
         <div>
 
             <h1>
@@ -584,7 +589,8 @@ function App() {
             </button>
 
         </div>
-    );
+</>
+);
 }
 ```
 
@@ -611,17 +617,13 @@ Because the UI often depends on changing data.
 Examples:
 
 ```jsx
-const [products, setProducts] =
-    useState([]);
+const [products, setProducts] = useState([]);
 
-const [loading, setLoading] =
-    useState(true);
+const [loading, setLoading] = useState(true);
 
-const [error, setError] =
-    useState("");
+const [error, setError] = useState("");
 
-const [count, setCount] =
-    useState(0);
+const [count, setCount] = useState(0);
 ```
 
 Each one stores a different piece of state.
@@ -635,8 +637,7 @@ Suppose the API returns products.
 We can store them:
 
 ```jsx
-const [products, setProducts] =
-    useState([]);
+const [products, setProducts] = useState([]);
 ```
 
 Then after receiving the API response:
@@ -703,12 +704,7 @@ Imagine this:
 function Menu() {
 
     const getData = async () => {
-
-        let result =
-            await axios.get(
-                "http://localhost:5000/products"
-            );
-
+        let result = await axios.get("http://localhost:5000/products");
         setProducts(result.data);
     };
 
@@ -795,10 +791,7 @@ the effect runs again.
 Suppose we have:
 
 ```jsx
-<Route
-    path="/details/:id"
-    element={<Details />}
-/>
+<Route path="/details/:id" element={<Details />}/>
 ```
 
 If the user visits:
@@ -811,6 +804,13 @@ then:
 
 ```jsx
 const { id } = useParams();
+```
+
+* OR
+
+```jsx
+const data = useParams();
+let id = data.id
 ```
 
 gives:
@@ -838,19 +838,16 @@ The ID changes.
 So instead of writing:
 
 ```jsx
-axios.get(
-    "http://localhost:5000/products/1"
-);
+axios.get("http://localhost:5000/products/1");
 ```
 
 we can use:
 
 ```jsx
-const { id } = useParams();
+const data = useParams();
+let id = data.id
 
-axios.get(
-    `http://localhost:5000/products/${id}`
-);
+axios.get(`http://localhost:5000/products/${id}`);
 ```
 
 Now the same component can work with:
@@ -871,10 +868,7 @@ These three hooks are especially useful together.
 Consider this route:
 
 ```jsx
-<Route
-    path="/details/:id"
-    element={<Details />}
-/>
+<Route path="/details/:id" element={<Details />}/>
 ```
 
 The user opens:
@@ -887,6 +881,13 @@ First:
 
 ```jsx
 const { id } = useParams();
+```
+
+* OR
+
+```jsx
+const data = useParams();
+let id = data.id
 ```
 
 gets:
@@ -976,10 +977,7 @@ import axios from "axios";
 To get data:
 
 ```jsx
-let result =
-    await axios.get(
-        "http://localhost:5000/products"
-    );
+let result = await axios.get("http://localhost:5000/products");
 ```
 
 The API response is stored in:
@@ -1001,27 +999,17 @@ result.data
 Example:
 
 ```jsx
-import React, {
-    useEffect,
-    useState
-} from "react";
+import React, { useEffect, useState } from "react";
 
 import axios from "axios";
 
 
 function Menu() {
 
-    const [products, setProducts] =
-        useState([]);
-
+    const [products, setProducts] = useState([]);
 
     const getData = async () => {
-
-        let result =
-            await axios.get(
-                "http://localhost:5000/products"
-            );
-
+        let result = await axios.get("http://localhost:5000/products");
         setProducts(result.data);
     };
 
@@ -1033,8 +1021,8 @@ function Menu() {
     }, []);
 
 
-    return (
-
+return (
+<>
         <div>
 
             {products.map(product => (
@@ -1054,7 +1042,8 @@ function Menu() {
             ))}
 
         </div>
-    );
+</>
+);
 }
 
 export default Menu;
@@ -1067,19 +1056,13 @@ export default Menu;
 Suppose the route is:
 
 ```jsx
-<Route
-    path="/details/:id"
-    element={<Details />}
-/>
+<Route path="/details/:id" element={<Details />}/>
 ```
 
 Then:
 
 ```jsx
-import React, {
-    useEffect,
-    useState
-} from "react";
+import React, { useEffect,useState } from "react";
 
 import {
     useParams
@@ -1090,21 +1073,12 @@ import axios from "axios";
 
 function Details() {
 
-    const { id } =
-        useParams();
-
-
-    const [product, setProduct] =
-        useState(null);
-
+    const data = useParams();
+    let id = data.id
+    const [product, setProduct] = useState(null);
 
     const getData = async () => {
-
-        let result =
-            await axios.get(
-                `http://localhost:5000/products/${id}`
-            );
-
+        let result = await axios.get(`http://localhost:5000/products/${id}`);
         setProduct(result.data);
     };
 
@@ -1116,8 +1090,8 @@ function Details() {
     }, [id]);
 
 
-    return (
-
+return (
+<>
         <div>
 
             {product && (
@@ -1141,7 +1115,8 @@ function Details() {
             )}
 
         </div>
-    );
+</>
+);
 }
 
 export default Details;
@@ -1174,8 +1149,7 @@ id = 7
 ## Step 2 — Create State
 
 ```jsx
-const [product, setProduct] =
-    useState(null);
+const [product, setProduct] = useState(null);
 ```
 
 Initially:
@@ -1192,12 +1166,7 @@ because we haven't received the API data yet.
 
 ```jsx
 const getData = async () => {
-
-    let result =
-        await axios.get(
-            `http://localhost:5000/products/${id}`
-        );
-
+    let result = await axios.get(`http://localhost:5000/products/${id}`);
     setProduct(result.data);
 };
 ```
@@ -1301,8 +1270,7 @@ Display Data
 A loading state can be used while waiting for the API.
 
 ```jsx
-const [loading, setLoading] =
-    useState(true);
+const [loading, setLoading] = useState(true);
 ```
 
 Then:
